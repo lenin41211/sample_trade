@@ -33,62 +33,57 @@
 }
 
 table {
-    table-layout: fixed;
-    width: 1500px;
-   
-    border-collapse: collapse;
-}
+  table-layout: fixed;
+  width: 1500px;
 
+  border-collapse: collapse;
+}
 
 th {
-    max-width: 100%;
-    width: 100%;
-    
-    padding: 02px;
+  max-width: 100%;
+  width: 100%;
+
+  padding: 02px;
 }
 td {
-   
- 
-  text-align: 'center';
+  text-align: "center";
   padding: 03px;
- 
-  
 }
 
-tr{
-   border: solid 1px #DDDDDD;
+tr {
+  border: solid 1px #dddddd;
 }
-tr:hover{
+tr:hover {
   background: #f1f1f1;
 }
 tr:focus {
-   background: #f3f3f3;
+  background: #f3f3f3;
 }
 
 .last-positive {
-    background: green;
-    color: #FFFFFF;
+  background: green;
+  color: #ffffff;
 }
 
 .last-negative {
-    background: red;
-    color: #FFFFFF;
+  background: red;
+  color: #ffffff;
 }
 
 .change-positive {
-    color: green;
+  color: green;
 }
 
 .change-negative {
-    color: red;
+  color: red;
 }
 
 .row {
-    margin: 10px 0;
+  margin: 10px 0;
 }
 
 .container {
-    width: 552px;
+  width: 552px;
 }
 .sidenav {
   height: 100%;
@@ -102,8 +97,6 @@ tr:focus {
   transition: 0.3s;
   padding-top: 60px;
 }
-
-
 
 .sidenav a {
   padding: 8px 8px 8px 32px;
@@ -127,13 +120,16 @@ tr:focus {
 }
 
 @media screen and (max-height: 450px) {
-  .sidenav {padding-top: 15px;}
-  .sidenav a {font-size: 18px;}
+  .sidenav {
+    padding-top: 15px;
+  }
+  .sidenav a {
+    font-size: 18px;
+  }
 }
 
-
 .tabcontent {
- display: none;
+  display: none;
   border-left: 0px solid #fff;
   padding: 10px 0px;
   height: 20%;
@@ -142,7 +138,7 @@ tr:focus {
   background-color: #000;
   color: #fff;
   float: left;
-  border: .5px solid #555;
+  border: 0.5px solid #555;
   outline: none;
   cursor: pointer;
   padding: 8px;
@@ -153,7 +149,15 @@ tr:focus {
 .tablink:hover {
   background-color: #555;
 }
-#Home {background-color: red;}
-#News {background-color: green;}
-#Contact {background-color: blue;}
-#About {background-color: orange;}
+#Home {
+  background-color: red;
+}
+#News {
+  background-color: green;
+}
+#Contact {
+  background-color: blue;
+}
+#About {
+  background-color: orange;
+}
